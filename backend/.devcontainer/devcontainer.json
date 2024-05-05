@@ -1,0 +1,26 @@
+// .devcontainer/devcontainer.json
+{
+    "name": "Career Coach",
+    "dockerComposeFile": [
+        "../../compose.yaml" // the docker compose file that we want to run
+    ],
+    "service": "web", // The service in compose.yaml that we want vs code to use as a dev containers 
+    "shutdownAction": "stopCompose",
+    "workspaceFolder": "/app/backend",
+    "customizations": {
+        "vscode": {
+            "settings": { 
+                "terminal.integrated.shell.linux": "/bin/bash",
+                "python.pythonPath": "/usr/local/bin/python"
+            },
+            "extensions": [
+                "ms-python.python",
+                "ms-vscode-remote.remote-containers"
+            ]
+        }
+    },
+    "forwardPorts": [
+        8000
+    ],
+    "remoteUser": "root"
+}

@@ -1,0 +1,11 @@
+class ErrorCode: 
+    STUDENT_NOT_FOUND = 'Student not found'
+    STUDENT_ALREADY_REGISTERED = 'Student with this email or student ID already registered'
+    STUDENT_PROFILE_NOT_VISIBLE = 'You are not authorised to view this students profile'
+    STUDENT_DEGREE_ALREADY_EXISTS = 'Student already assigned to degree'
+    STUDENT_DEGREE_NOT_FOUND = 'Student not assigned to degree'
+    EXTERNAL_PROFILE_ALREADY_EXISTS = 'External profile website or URL already exist'
+    EXTERNAL_PROFILE_NOT_FOUND = 'External profile not found'
+    SKILL_TAG_ALREADY_EXISTS = 'Skill tag already assigned to student'
+    SKILL_TAG_NOT_ATTACHED = 'Skill tag not assigned to student'
+    ACTIVITY_NOT_FOUND = 'Activity not found'

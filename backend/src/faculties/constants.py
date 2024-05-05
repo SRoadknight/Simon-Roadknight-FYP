@@ -1,0 +1,2 @@
+class ErrorCode:
+    FACULTY_NOT_FOUND = 'FACULTY_NOT_FOUND'

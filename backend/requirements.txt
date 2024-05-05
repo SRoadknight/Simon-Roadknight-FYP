@@ -1,0 +1,16 @@
+fastapi
+uvicorn
+mypy
+fastapi_contrib
+sqlmodel==0.0.16
+python-dotenv
+python-multipart
+python-jose[cryptography]
+passlib[bcrypt]
+pydantic-settings
+email-validator
+asyncpg
+nltk
+networkx
+numpy
+scipy
